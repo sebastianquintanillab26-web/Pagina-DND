@@ -1,0 +1,151 @@
+.inicio {
+  color: rgb(255, 255, 255);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); 
+   margin: 0;
+      font-size: 1.1rem; 
+      line-height: 1.6;
+}
+h1 {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); 
+  margin: 20px 20px 10px 20px;
+      font-size: 2.2rem;
+      font-weight: bold;
+}
+.contenido-principal {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 20px;
+      padding: 20px;
+}
+   .texto {
+      flex: 1;
+      min-width: 250px;
+    }
+    .carrusel-wrapper {
+      flex-shrink: 0;
+      width: 400px;
+      max-width: 100%;
+    }
+body {
+     color: #111
+    }
+.tabla{
+  margin-left: 25px;
+  margin-right: 150px; 
+  padding: 0 10px;
+}
+.Dado{
+ color:black;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 20px;          
+ padding: 20px;
+ background-color: white;
+ border: 1px solid black;
+  margin-left: 25px;
+  margin-right: 150px; 
+}
+.fila-inferior {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.fila-inferior ul {
+  flex: 1;
+  margin: 0;
+}
+
+.imagen-dados {
+  max-width: 500px;
+  height: auto;
+   margin-right: 300px; 
+}
+.fila-manuales{
+ margin-left: 25px;
+  margin-top: 15px;
+}
+.manualpl{
+ margin-left: 25px;
+  margin-top: 15px;
+}
+.manualmostro{
+ margin-left: 75px;
+  margin-top: 15px;
+}
+.manualdm{
+ margin-left: 75px;
+  margin-top: 15px;
+}
+.titulo-manuales {
+  padding: 20px;
+}
+
+
+.fila-manuales {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.manual-obj {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.manual-obj a {
+  display: block; 
+}
+h3 {
+  color: rgb(17, 17, 17);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 0 0 10px rgba(44, 43, 43, 0.8); 
+  margin: 20px 20px 10px 20px;
+      font-size: 2.2rem;
+      font-weight: bold;
+}
+.targetas {
+  color: rgb(17, 17, 17);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 0 0 10px rgba(44, 43, 43, 0.8); 
+   margin: 0;
+      font-size: 1.1rem; 
+      line-height: 1.6;
+      margin-left: 25px;
+}
+.HDPE{
+ margin-left: 200px;
+  margin-top: 15px;
+  border: 1px solid black;
+}
+.HDC{
+ margin-left: 75px;
+  margin-top: 15px;
+  border: 1px solid black;
+}
+.hoja{
+ margin-left: 75px;
+  color: rgb(255, 255, 255);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); 
+   margin: 0;
+      font-size: 1.1rem; 
+      line-height: 1.6;
+}
+.manual-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.manual-item p {
+  margin-top: 8px;
+}
